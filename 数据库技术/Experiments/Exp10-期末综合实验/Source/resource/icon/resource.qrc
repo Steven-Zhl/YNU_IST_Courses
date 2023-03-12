@@ -1,0 +1,33 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>window-desktop.svg</file>
+    <file>trash3-fill.svg</file>
+    <file>trash3.svg</file>
+    <file>star-fill.svg</file>
+    <file>star.svg</file>
+    <file>scissors.svg</file>
+    <file>plus-circle-fill.svg</file>
+    <file>plus-circle.svg</file>
+    <file>music-note-beamed.svg</file>
+    <file>input-cursor.svg</file>
+    <file>info-circle-fill.svg</file>
+    <file>info-circle.svg</file>
+    <file>images.svg</file>
+    <file>house-door-fill.svg</file>
+    <file>house-door.svg</file>
+    <file>gear-fill.svg</file>
+    <file>gear.svg</file>
+    <file>film.svg</file>
+    <file>file-earmark-medical.svg</file>
+    <file>download.svg</file>
+    <file>clipboard-fill.svg</file>
+    <file>clipboard.svg</file>
+    <file>arrow-up-square-fill.svg</file>
+    <file>arrow-up-square.svg</file>
+    <file>arrow-right-square-fill.svg</file>
+    <file>arrow-right-square.svg</file>
+    <file>arrow-left-square-fill.svg</file>
+    <file>arrow-left-square.svg</file>
+    <file>arrow-clockwise.svg</file>
+  </qresource>
+</RCC>

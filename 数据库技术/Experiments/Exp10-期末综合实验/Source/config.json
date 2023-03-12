@@ -1,0 +1,101 @@
+{
+  "dbType": "Sqlite",
+  "SqlitePath": "/resource/database/file.db",
+  "MySQLHost": "localhost",
+  "MySQLPort": 3306,
+  "MySQLUser": "",
+  "MySQLPassword": "",
+  "MySQLDatabase": "SimpleResManager",
+  "defaultPage": "defaultPage",
+  "homePageQuickDirs": {
+    "桌面": "D:/Desktop",
+    "文档": "D:/Documents",
+    "下载": "D:/Downloads",
+    "图片": "D:/Pictures",
+    "音乐": "D:/Music",
+    "视频": "D:/Videos"
+  },
+  "projectPath": "D:/Projects/SimpleResManager",
+  "iconPath": "/resource/icon",
+  "fileExt": {
+    "音乐": [
+      "mp3",
+      "flac",
+      "wav"
+    ],
+    "歌词": [
+      "lrc"
+    ],
+    "视频": [
+      "mp4",
+      "mkv",
+      "avi",
+      "flv",
+      "wmv",
+      "avi",
+      "ts",
+      "m3u8"
+    ],
+    "文档": [
+      "txt",
+      "md"
+    ],
+    "文档（不可读）": [
+      "doc",
+      "docx",
+      "ppt",
+      "pptx",
+      "xls",
+      "xlsx",
+      "pdf"
+    ],
+    "配置文件": [
+      "ini",
+      "bat",
+      "yaml",
+      "json",
+      "xml"
+    ],
+    "代码": [
+      "c",
+      "cpp",
+      "cs",
+      "java",
+      "js",
+      "html",
+      "css",
+      "py",
+      "php",
+      "go",
+      "h",
+      "hpp",
+      "sh"
+    ],
+    "图片": [
+      "jpg",
+      "jpeg",
+      "png",
+      "bmp",
+      "webp",
+      "gif"
+    ],
+    "快捷方式": [
+      "lnk"
+    ],
+    "软件": [
+      "exe",
+      "msi",
+      "iso"
+    ]
+  },
+  "type_icon": {
+    "音频": "music-note-beamed.svg",
+    "歌词": "lyric",
+    "视频": "video",
+    "文档": "document",
+    "配置文件": "gear.svg",
+    "图片": "image",
+    "代码": "journal-code.svg",
+    "文件": "file-earmark.svg"
+  }
+}

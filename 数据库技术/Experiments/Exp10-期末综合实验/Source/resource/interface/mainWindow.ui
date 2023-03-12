@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>baseWindow</class>
+ <widget class="QWidget" name="baseWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1045</width>
+    <height>763</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{background-color:white;}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" rowstretch="1,12" columnstretch="3,9">
+   <item row="1" column="0">
+    <widget class="QListWidget" name="quick_jump">
+     <property name="font">
+      <font>
+       <family>等线</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QListWidget{border: 1px solid black;background-color: white;}</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="spacing">
+      <number>10</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>主页</string>
+      </property>
+      <property name="icon">
+       <iconset resource="../icon/resource.qrc">
+        <normaloff>:/icon/house-door.svg</normaloff>:/icon/house-door.svg</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>桌面</string>
+      </property>
+      <property name="icon">
+       <iconset resource="../icon/resource.qrc">
+        <normaloff>:/icon/window-desktop.svg</normaloff>:/icon/window-desktop.svg</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>下载</string>
+      </property>
+      <property name="icon">
+       <iconset resource="../icon/resource.qrc">
+        <normaloff>:/icon/download.svg</normaloff>:/icon/download.svg</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>图片</string>
+      </property>
+      <property name="icon">
+       <iconset resource="../icon/resource.qrc">
+        <normaloff>:/icon/images.svg</normaloff>:/icon/images.svg</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>文档</string>
+      </property>
+      <property name="icon">
+       <iconset resource="../icon/resource.qrc">
+        <normaloff>:/icon/file-earmark-medical.svg</normaloff>:/icon/file-earmark-medical.svg</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>视频</string>
+      </property>
+      <property name="icon">
+       <iconset resource="../icon/resource.qrc">
+        <normaloff>:/icon/film.svg</normaloff>:/icon/film.svg</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>音乐</string>
+      </property>
+      <property name="icon">
+       <iconset resource="../icon/resource.qrc">
+        <normaloff>:/icon/music-note-beamed.svg</normaloff>:/icon/music-note-beamed.svg</iconset>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QWidget" name="leftupbar" native="true">
+     <property name="styleSheet">
+      <string notr="true">QWidget{background-color:white;}</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QToolButton" name="left">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QToolButton{border-radius: 20px;border: 0px solid gray;}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../icon/resource.qrc">
+          <normaloff>:/icon/arrow-left-square.svg</normaloff>:/icon/arrow-left-square.svg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="arrowType">
+         <enum>Qt::NoArrow</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="right">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QToolButton{border-radius: 20px;border: 0px solid gray;}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../icon/resource.qrc">
+          <normaloff>:/icon/arrow-right-square.svg</normaloff>:/icon/arrow-right-square.svg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="arrowType">
+         <enum>Qt::NoArrow</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="up">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QToolButton{border-radius: 20px;border: 0px solid gray;}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../icon/resource.qrc">
+          <normaloff>:/icon/arrow-up-square.svg</normaloff>:/icon/arrow-up-square.svg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="arrowType">
+         <enum>Qt::NoArrow</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="refresh">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QToolButton{border-radius: 20px;border: 0px solid gray;}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../icon/resource.qrc">
+          <normaloff>:/icon/arrow-clockwise.svg</normaloff>:/icon/arrow-clockwise.svg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QWidget" name="header_entry" native="true">
+     <property name="styleSheet">
+      <string notr="true">QWidget{background-color:white;}</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout" stretch="11,5,1">
+      <property name="spacing">
+       <number>20</number>
+      </property>
+      <property name="topMargin">
+       <number>9</number>
+      </property>
+      <property name="bottomMargin">
+       <number>9</number>
+      </property>
+      <item>
+       <widget class="QLineEdit" name="address">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>130</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>等线</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>IBeamCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLineEdit{border-radius: 10px;border: 1px solid black;background-color: white;}</string>
+        </property>
+        <property name="text">
+         <string>/主页</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="search">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>等线</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLineEdit{border-radius: 10px;border: 1px solid black;background-color: white;}</string>
+        </property>
+        <property name="placeholderText">
+         <string> 搜索</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="setting">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QToolButton{border-radius: 20px;border: 0px solid gray;}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../icon/resource.qrc">
+          <normaloff>:/icon/gear.svg</normaloff>:/icon/gear.svg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>25</width>
+          <height>25</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QWidget" name="mainwindow" native="true">
+     <property name="styleSheet">
+      <string notr="true">QWidget{background-color: white;}</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="controlbar" native="true">
+        <property name="styleSheet">
+         <string notr="true">QWidget{border: 1px solid black;background-color: white;}</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <property name="leftMargin">
+          <number>9</number>
+         </property>
+         <property name="topMargin">
+          <number>1</number>
+         </property>
+         <property name="rightMargin">
+          <number>9</number>
+         </property>
+         <property name="bottomMargin">
+          <number>1</number>
+         </property>
+         <item alignment="Qt::AlignLeft">
+          <widget class="QWidget" name="left_control" native="true">
+           <property name="styleSheet">
+            <string notr="true">QWidget{border:0px;}</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>3</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>3</number>
+            </property>
+            <item>
+             <widget class="QToolButton" name="createNew">
+              <property name="minimumSize">
+               <size>
+                <width>50</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QToolButton{border-radius: 20px;border: 0px solid gray;}</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="../icon/resource.qrc">
+                <normaloff>:/icon/plus-circle.svg</normaloff>:/icon/plus-circle.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="cut">
+              <property name="minimumSize">
+               <size>
+                <width>50</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QToolButton{border-radius: 20px;border: 0px solid gray;}</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="../icon/resource.qrc">
+                <normaloff>:/icon/scissors.svg</normaloff>:/icon/scissors.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="copy">
+              <property name="minimumSize">
+               <size>
+                <width>50</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QToolButton{border-radius: 20px;border: 0px solid gray;}</string>
+              </property>
+              <property name="text">
+               <string>...</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../icon/resource.qrc">
+                <normaloff>:/icon/clipboard.svg</normaloff>:/icon/clipboard.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="rename">
+              <property name="minimumSize">
+               <size>
+                <width>50</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QToolButton{border-radius: 20px;border: 0px solid gray;}</string>
+              </property>
+              <property name="text">
+               <string>...</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../icon/resource.qrc">
+                <normaloff>:/icon/input-cursor.svg</normaloff>:/icon/input-cursor.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="remove">
+              <property name="minimumSize">
+               <size>
+                <width>50</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QToolButton{border-radius: 20px;border: 0px solid gray;}</string>
+              </property>
+              <property name="text">
+               <string>...</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../icon/resource.qrc">
+                <normaloff>:/icon/trash3.svg</normaloff>:/icon/trash3.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="info">
+              <property name="minimumSize">
+               <size>
+                <width>50</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QToolButton{border-radius: 20px;border: 0px solid gray;}</string>
+              </property>
+              <property name="text">
+               <string>...</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../icon/resource.qrc">
+                <normaloff>:/icon/info-circle.svg</normaloff>:/icon/info-circle.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTableWidget" name="main_widget">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QTableWidget{border: 1px solid black;background-color: white;}</string>
+        </property>
+        <column>
+         <property name="text">
+          <string>名称</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>等线</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Tags</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>等线</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>文件类型</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>等线</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>修改日期</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>等线</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>大小</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>等线</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+        </column>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../icon/resource.qrc"/>
+  <include location="../icon/resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
