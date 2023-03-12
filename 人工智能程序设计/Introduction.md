@@ -44,7 +44,7 @@
   * 实验报告：[Report.docx](./Experiments/Exp11/Report.docx)
 * [期末实验](./Experiments/Exp-期末)
   * 程序设计注意点：[程序设计注意点.md](./Experiments/Exp-期末/程序设计注意点.md)
-  * 实验报告：[Report.docx](./Experiments/Exp-期末/Report.docx)
+  * 实验报告：[Report.pdf](./Experiments/Exp-期末/Report.pdf)
 
 ### 其他资料
 
