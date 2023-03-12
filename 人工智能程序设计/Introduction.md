@@ -43,8 +43,15 @@
 * [实验11](./Experiments/Exp11)
   * 实验报告：[Report.docx](./Experiments/Exp11/Report.docx)
 * [期末实验](./Experiments/Exp-期末)
+  * 项目：[Code](./Experiments/Exp-期末/Code)
+    * 项目中使用了`haarcascade_frontalface_default.xml`，这是一份由OpenCV开发者和维护者提供的人脸检测器，可以借助此文件在OpenCV中轻松实现人脸检测。
+      * 下载地址：References中的第一条链接
   * 程序设计注意点：[程序设计注意点.md](./Experiments/Exp-期末/程序设计注意点.md)
   * 实验报告：[Report.pdf](./Experiments/Exp-期末/Report.pdf)
+  * References
+    * [opencv/haarcascade_frontalface_default.xml at 4.x · opencv/opencv](https://github.com/opencv/opencv/blob/4.x/data/haarcascades_cuda/haarcascade_frontalface_default.xml)
+    * [(Visual Basic实现)调整图像- 自动对比度、自动色阶算法 - Imageshop - 博客园](https://www.cnblogs.com/Imageshop/archive/2011/11/13/2247614.html)
+    * [(Matlab实现)自动色阶、自动对比度算法实现_风吹夏天的博客-CSDN博客](https://blog.csdn.net/bluecol/article/details/45576827)
 
 ### 其他资料
 
