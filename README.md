@@ -4,9 +4,9 @@
 >
 > 通常将源代码和相关报告留在Github，而对于较大的文件（例如较大的实验报告、工程项目以及其他不便于通过git传输的文件）则将其放在网盘上。
 >
-> [**Github主页**](https://github.com/Steven-Zhl/YNU_IST_Courses)
+> [**Github主页**](https://github.com/Steven-Zhl/YNU_IST_Courses)：主要更新源
 >
-> **Gitee镜像** Gitee镜像已被删除，使用Github维护
+> [**Gitee镜像**](https://gitee.com/Steven-Zhl/YNU_IST_Courses)：公式渲染效果好
 >
 ## 其他
 
