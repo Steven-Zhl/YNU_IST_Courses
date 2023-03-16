@@ -24,6 +24,14 @@
 
 * 跳转到[津宝的Repository](https://github.com/wangjin0818/Computer_Network_2023/)中查看
 
+### [作业](./Homework)
+
+* 雨课堂作业(做的不太好QAQ)
+  * [作业1](./Homework/Hwk1.mhtml)
+  * [作业2](./Homework/Hwk2.mhtml)
+  * [作业3](./Homework/Hwk3.mhtml)
+  * [作业4](./Homework/Hwk4.mhtml)
+
 ### [实验](./Experiments)
 
 * [Packet Tracer汉化包](./Experiments/Chinese_chi.ptl)
