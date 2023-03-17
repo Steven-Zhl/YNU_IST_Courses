@@ -13,6 +13,38 @@
 * PyCharm Professional 2022.1
 * Draw.io
 
+## 成绩构成
+
+### 理论课
+
+* 平时作业20%
+* 随堂测验10%
+* 考勤5%
+* 课堂参与(回答问题)5%
+* 期末考试60%
+* <img alt="理论课成绩构成" width=512 src="./IMG/理论课成绩构成.png">
+
+### 实验课
+
+* 6次平时实验($6\times 10\%$)
+  * > 代码实现5%、报告撰写4%、考勤和课堂参与1%
+  * 线性模型
+  * 决策树与集成学习
+  * SVM
+  * 神经网络
+  * 深度学习
+  * 聚类算法
+* 期末大作业
+  * > 选题5%、报告10%、Presentation5%
+  * 自主选题，独立完成
+
+## 课程
+
+> PPT通过腾讯文档分享，且并未提供下载
+
+* [1. 绪论](https://docs.qq.com/slide/DSktGTExXQWdvSHND?groupUin=LEjxNuIjBiCPbxZtvNSbqQ%253D%253D)
+* [2. 模型评估与选择](https://docs.qq.com/slide/DSk1DQ3dEVHp2a3BL?groupUin=LEjxNuIjBiCPbxZtvNSbqQ%253D%253D)
+
 ## 教材
 
 * [《机器学习》周志华，清华大学出版社](https://book.douban.com/subject/26708119/)
@@ -24,8 +56,8 @@
 ### [作业](./Homework)
 
 * [作业1](./Homework/Hwk1)
-  * [作业1.docx](./Homework/Hwk1/作业1.docx)
-    * [题1绘图](./Homework/Hwk1/题1绘图.drawio)
+  * [作业报告](./Homework/Hwk1/作业1.docx)
+  * [题1绘图](./Homework/Hwk1/题1绘图.drawio)
   * References
     * [机器学习（周志华）课后作业/习题答案_机器学习周志华答案_Mr-Cat伍可猫的博客-CSDN博客](https://blog.csdn.net/Mr_Cat123/article/details/86614696)
       * > 但不可尽信，其中有部分是有误的
@@ -50,3 +82,8 @@
     * 逻辑回归的求解思路
       * [吴恩达机器学习课程-作业2-逻辑回归（python实现）_生榨的椰汁的博客-CSDN博客](https://blog.csdn.net/weixin_44027820/article/details/104540762)
       * [machine-learning-Andrew/logistic_regression.py at 60bc802dc1b496f8ee2c2a2fd2cf92e41a6013e4 · WinterPan2017/machine-learning-Andrew](https://github.com/WinterPan2017/machine-learning-Andrew/blob/60bc802dc1b496f8ee2c2a2fd2cf92e41a6013e4/ex2_logistic_regression/logistic_regression.py#L90)
+  * 附：老师要求逻辑下降中的最小化要自己手写，不能调库，但我实在做不出来(太菜了QAQ)，上述代码中逻辑下降就是调用`sklearn.LogisticRefression`完成的。
+
+### [笔记](./Notes)
+
+* [Part01 绪论](./Notes/Part01-绪论.md)
