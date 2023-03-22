@@ -1,16 +1,24 @@
 import csv
 import re
-
 import matplotlib
 import numpy as np
 from matplotlib import pyplot as plt
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split, cross_val_score
 
+__doc__ = """
+经过最近的尝试与深刻反省，决定重写Exp1源代码regression.py，新版本为Vol1.1和Vol2.0。
+原因在于，当前写的代码用于数学运算而非程序设计，首要目标应当是高性能与高可读性，而不必考虑健壮性与(高内聚)低耦合，Jupyter就是个典型的例子。
+而在Vol1.0中忽略了这些，盲目封装自己的函数与接口，驼峰和分隔符写法混用，可读性大打折扣的同时性能也无明显优势，故而选择重写，重写的两个版本将大幅降低封装程度。
+Vol1.1版本将仍然按照原本的解题方法，第二问选择sklearn.LogisticRegression()完成，能够得到正确的回归结果。
+Vol2.0版本将采用手动梯度下降的方式完成，但限于个人能力，未能收敛，仅是迫于实验要求而写的版本，请诸位同仁注意。
+当前为Vol1.0。
+"""
+
 # Config: 设定好文件路径和绘图后端
 matplotlib.use('TkAgg')
-ex1data1 = r"D:\Projects\Python\MachineLearning\Exp1\ex1data1.csv"
-ex1data2 = r"D:\Projects\Python\MachineLearning\Exp1\ex1data2.csv"
+ex1data1 = "./ex1data1.csv"
+ex1data2 = "./ex1data2.csv"
 
 
 def readCSV(fileName, columns: list) -> list[np.ndarray]:
@@ -269,4 +277,5 @@ def Ques2():
 
 
 if __name__ == '__main__':
+    Ques1()
     Ques2()
