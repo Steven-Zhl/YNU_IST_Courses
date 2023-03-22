@@ -42,8 +42,10 @@
 
 > PPT通过腾讯文档分享，且并未提供下载
 
-* [1. 绪论](https://docs.qq.com/slide/DSktGTExXQWdvSHND?groupUin=LEjxNuIjBiCPbxZtvNSbqQ%253D%253D)
-* [2. 模型评估与选择](https://docs.qq.com/slide/DSk1DQ3dEVHp2a3BL?groupUin=LEjxNuIjBiCPbxZtvNSbqQ%253D%253D)
+* [1. 绪论](https://docs.qq.com/slide/DSktGTExXQWdvSHND)
+* [2. 模型评估与选择](https://docs.qq.com/slide/DSk1DQ3dEVHp2a3BL)
+* [3. 线性模型](https://docs.qq.com/slide/DSk5aeFRRYmJPU1J4)
+* [4. 决策树](https://docs.qq.com/slide/DSkdBcnJZWVBkdENw)
 
 ## 教材
 
@@ -69,11 +71,15 @@
 * [实验杂记](./Experiments/Jottings/Jottings.md)：一些问题和技巧，当你的实验出现Warning或Error时，可以来这里翻翻
 * [实验1：线性模型](./Experiments/Exp1：线性模型)
   * [源文件](./Experiments/Exp1：线性模型/Code)
-    * [主程序](./Experiments/Exp1：线性模型/Code/regression.py)
-  * [数据集](./Experiments/Exp1：线性模型/Data)
-    * [题1数据集](./Experiments/Exp1：线性模型/Data/ex1data1.csv)
-    * [题2数据集](./Experiments/Exp1：线性模型/Data/ex1data2.csv)
-  * [实验报告](./Experiments/Exp1：线性模型/Report.docx)
+    * [源文件 Vol1.0](./Experiments/Exp1：线性模型/Code/regression_Vol1.0.py)：最早的版本，盲目封装导致可读性非常差
+    * [源文件 Vol1.1](./Experiments/Exp1：线性模型/Code/regression_Vol1.1.py)：大幅降低封装度，提高可读性，但方法与Vol1.0完全相同
+    * [源文件 Vol2.0](./Experiments/Exp1：线性模型/Code/regression_Vol2.0.py)：采用手动梯度下降替换`sklearn.LogisticRegression`，但效果不太好
+  * 数据集
+    * [题1数据集](./Experiments/Exp1：线性模型/Code/ex1data1.csv)
+    * [题2数据集](./Experiments/Exp1：线性模型/Code/ex1data2.csv)
+  * 实验报告
+    * [实验报告 Vol1.X](./Experiments/Exp1：线性模型/Report_Vol1.X.docx)：对应Vol1.0和Vol1.1，但使用了`sklearn.LogisticRegression`，不符合要求。
+    * [实验报告 Vol2.0](./Experiments/Exp1：线性模型/Report_Vol2.0.docx)：对应Vol2.0，使用手动梯度下降，但效果不太好
   * References
     * `numpy.ndarray`相关操作
       * [ndarray的拼接方法,np.stack和np.vstack,np.hstack,np.concatenate_ndarray拼接_敲来敲去CC的博客-CSDN博客](https://blog.csdn.net/yuzhihuan1224/article/details/100977580)
@@ -82,7 +88,9 @@
     * 逻辑回归的求解思路
       * [吴恩达机器学习课程-作业2-逻辑回归（python实现）_生榨的椰汁的博客-CSDN博客](https://blog.csdn.net/weixin_44027820/article/details/104540762)
       * [machine-learning-Andrew/logistic_regression.py at 60bc802dc1b496f8ee2c2a2fd2cf92e41a6013e4 · WinterPan2017/machine-learning-Andrew](https://github.com/WinterPan2017/machine-learning-Andrew/blob/60bc802dc1b496f8ee2c2a2fd2cf92e41a6013e4/ex2_logistic_regression/logistic_regression.py#L90)
-  * 附：老师要求逻辑下降中的最小化要自己手写，不能调库，但我实在做不出来(太菜了QAQ)，上述代码中逻辑下降就是调用`sklearn.LogisticRefression`完成的。
+  * 后记
+    * > 这次手写梯度下降真的快把我逼疯了
+    * ![Exp1Ques2的尝试log](./IMG/Exp1Ques2的尝试log.jpg)
 
 ### [笔记](./Notes)
 
