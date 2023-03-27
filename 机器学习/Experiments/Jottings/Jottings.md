@@ -1,6 +1,6 @@
 # 《机器学习》实验中的一些问题与技巧
 
-> 这些问题和技巧主要与Python语言的特性相关。
+> 这些问题和技巧主要与Python的特性相关。
 
 ## Matplotlib
 
@@ -31,3 +31,22 @@
   * PyQt5交互式绘图
     * ![PyQt5交互式绘图](./IMG/MatplotlibDeprecationWarning_3.png)
   * 二者没有太大区别，但理论上PyQt5的性能应当优于Tkinter。
+
+## graphviz
+
+> graphviz是一个相较于Matplotlib性能更高的绘图工具(似乎叫引擎更合适)，唯一不好的一点是需要安装。
+
+### 1. `graphviz.backend.ExecutableNotFound`
+
+> 2023-03-27 记录
+
+* 提示内容：
+  * `graphviz.backend.ExecutableNotFound: failed to execute ['dot', '-Tsvg'], make sure the Graphviz executables are on your systems' PATH`
+* 原因：
+  * 这是graphviz的唯一一个缺点：它需要安装，并且需要手动配置环境变量。
+* 解决方法：
+  * 去它的[官网下载链接](https://graphviz.org/download/)下载Windows安装包(如果你用的是Windows系统)并安装。
+    * > 安装包使用的是GBK编码，在已经改为UTF-8编码的系统中会出现乱码，但不影响用。
+  * 在Python环境中用`pip install graphviz`安装graphviz。
+  * 将graphviz的bin文件夹的路径添加至系统变量`PATH`中，如下图。
+  * ![graphviz环境变量](./IMG/graphviz.backend.ExecutableNotFound.jpg)
