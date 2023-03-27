@@ -58,28 +58,33 @@
 ### [作业](./Homework)
 
 * [作业1](./Homework/Hwk1)
-  * [作业报告](./Homework/Hwk1/作业1.docx)
-  * [题1绘图](./Homework/Hwk1/题1绘图.drawio)
+  * 作业报告:[作业1.docx](./Homework/Hwk1/作业1.docx)
+  * 题1绘图:[题1绘图.drawio](./Homework/Hwk1/题1绘图.drawio)
   * References
     * [机器学习（周志华）课后作业/习题答案_机器学习周志华答案_Mr-Cat伍可猫的博客-CSDN博客](https://blog.csdn.net/Mr_Cat123/article/details/86614696)
       * > 但不可尽信，其中有部分是有误的
     * [《机器学习》中的假设空间和版本空间_一只程序喵的博客-CSDN博客](https://blog.csdn.net/anqijiayou/article/details/79697900)
     * [机器学习 (Machine Learning) 在自动驾驶中的应用 - 知乎](https://zhuanlan.zhihu.com/p/550635742)
+* [作业2](./Homework/Hwk2)
+  * 作业报告:[作业2.docx](./Homework/Hwk2/作业2.docx)
+  * 题3伪代码:[demo.py](./Homework/Hwk2/demo.py)
+  * References
+    * [决策树DecisionTree（附代码实现） - 知乎](https://zhuanlan.zhihu.com/p/149510491)
+    * [New Bing](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx)
 
 ### [实验](./Experiment)
 
 * [实验杂记](./Experiments/Jottings/Jottings.md)：一些问题和技巧，当你的实验出现Warning或Error时，可以来这里翻翻
 * [实验1：线性模型](./Experiments/Exp1：线性模型)
   * [源文件](./Experiments/Exp1：线性模型/Code)
-    * [源文件 Vol1.0](./Experiments/Exp1：线性模型/Code/regression_Vol1.0.py)：最早的版本，盲目封装导致可读性非常差
-    * [源文件 Vol1.1](./Experiments/Exp1：线性模型/Code/regression_Vol1.1.py)：大幅降低封装度，提高可读性，但方法与Vol1.0完全相同
-    * [源文件 Vol2.0](./Experiments/Exp1：线性模型/Code/regression_Vol2.0.py)：采用手动梯度下降替换`sklearn.LogisticRegression`，但效果不太好
+    * [regression_Vol1.0.py](./Experiments/Exp1：线性模型/Code/regression_Vol1.0.py)：最早的版本，盲目封装导致可读性非常差
+    * [regression_Vol1.1.py](./Experiments/Exp1：线性模型/Code/regression_Vol1.1.py)：大幅降低封装度，提高可读性，但方法与Vol1.0完全相同
+    * [regression_Vol2.0.py](./Experiments/Exp1：线性模型/Code/regression_Vol2.0.py)：采用手动梯度下降替换`sklearn.LogisticRegression`，但效果不太好
   * 数据集
-    * [题1数据集](./Experiments/Exp1：线性模型/Code/ex1data1.csv)
-    * [题2数据集](./Experiments/Exp1：线性模型/Code/ex1data2.csv)
+    * 题1数据集:[ex1data1.csv](./Experiments/Exp1：线性模型/Code/ex1data1.csv)
+    * 题2数据集:[ex1data2.csv](./Experiments/Exp1：线性模型/Code/ex1data2.csv)
   * 实验报告
-    * [实验报告 Vol1.X](./Experiments/Exp1：线性模型/Report_Vol1.X.docx)：对应Vol1.0和Vol1.1，但使用了`sklearn.LogisticRegression`，不符合要求。
-    * [实验报告 Vol2.0](./Experiments/Exp1：线性模型/Report_Vol2.0.docx)：对应Vol2.0，使用手动梯度下降，但效果不太好
+    * [Report.md](./Experiments/Exp1：线性模型/Report.md)：对应Vol1.0和Vol1.1，但使用了`sklearn.LogisticRegression`，不符合要求。
   * References
     * `numpy.ndarray`相关操作
       * [ndarray的拼接方法,np.stack和np.vstack,np.hstack,np.concatenate_ndarray拼接_敲来敲去CC的博客-CSDN博客](https://blog.csdn.net/yuzhihuan1224/article/details/100977580)
@@ -91,6 +96,16 @@
   * 后记
     * > 这次手写梯度下降真的快把我逼疯了
     * ![Exp1Ques2的尝试log](./IMG/Exp1Ques2的尝试log.jpg)
+* [实验2：决策树](./Experiments/Exp2：决策树)
+  * [源文件](./Experiments/Exp2：决策树/Code)
+    * [decision.py](./Experiments/Exp2：决策树/Code/decision.py)
+  * 数据集
+    * 本次数据集:[ex2data.csv](./Experiments/Exp2：决策树/Code/ex2data.csv)
+  * 实验报告
+    * [Report.md](./Experiments/Exp2：决策树/Report.md)
+  * References
+    * [New Bing](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx)
+    * [demo.py](./Experiments/Exp2：决策树/Code/demo.py)
 
 ### [笔记](./Notes)
 
