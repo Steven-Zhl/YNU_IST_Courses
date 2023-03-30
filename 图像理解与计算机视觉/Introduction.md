@@ -110,13 +110,6 @@
 
 ### [作业](./Homework)
 
-> 勘误：
->> 作业1中计算题结果有误，已在work文档和excel中更正
->>
->> 作业4中Huffman Tree的构建不符合常规，建议“左1右0”
->>
->> 作业5第3题中“结构元的映射”绘制错误，但结果是对的，drawio文件中已更正。
-
 * [作业1：图像变换](./Homework/Hwk1)
   * 计算表格：[最后一题计算表格.xlsx](./Homework/Hwk1/最后一题计算表格.xlsx)
   * 报告：[作业1.md](./Homework/Hwk1/作业1.md)
@@ -127,36 +120,30 @@
 
 * [作业3：图像复原](./Homework/Hwk3)
   * 题目：[CH03-课后作业.pdf](./Homework/Hwk3/CH03-课后作业.pdf)
-  * 解答
-    * Page1：[3_1.jpg](./Homework/Hwk3/3_1.jpg)
-    * Page2：[3_2.jpg](./Homework/Hwk3/3_2.jpg)
+  * 报告：[作业3.md](./Homework/Hwk3/作业3.md)
 
 * [作业4：图像压缩](./Homework/Hwk4)
   * 题目：[CH04-课后作业.pdf](./Homework/Hwk4/CH04-课后作业.pdf)
-  * 解答：[4_1.jpg](./Homework/Hwk4/4_1.jpg)
+  * 报告：[作业4.md](./Homework/Hwk4/作业4.md)
 
 * [作业5：形态学处理](./Homework/Hwk5)
   * 题目：[CH05-课后作业.pdf](./Homework/Hwk5/CH05-课后作业.pdf)
-  * 解答
-    * Page1：[5_1.jpg](./Homework/Hwk5/5_1.jpg)
-    * Page2：[5_2.jpg](./Homework/Hwk5/5_2.jpg)
-    * Page3：[5_3.jpg](./Homework/Hwk5/5_3.jpg)
+  * 报告：[作业5.md](./Homework/Hwk5/作业5.md)
 
 * [作业6：图像分割](./Homework/Hwk6)
   * 题目：[CH06-课后作业.pdf](./Homework/Hwk6/CH06-课后作业.pdf)
-  * 解答
-    * Page1：[6_1.jpg](./Homework/Hwk6/6_1.jpg)
-    * Page2：[6_2.jpg](./Homework/Hwk6/6_2.jpg)
-    * Page3：[6_3.jpg](./Homework/Hwk6/6_3.jpg)
+  * 报告：[作业6.md](./Homework/Hwk6/作业6.md)
 
 * [作业7：图像描述](./Homework/Hwk7)
   * 题目：[CH07-课后作业.pdf](./Homework/Hwk7/CH07-课后作业.pdf)
-  * 解答：[7_1.jpg](./Homework/Hwk7/7_1.jpg)
+  * 报告：[作业7.md](./Homework/Hwk7/作业7.md)
 
 * [作业8：计算机视觉典型应用](./Homework/Hwk8)
   * 题目：[CH08-课后作业.pdf](./Homework/Hwk8/CH08-课后作业.pdf)
-  * 解答：[8_1.jpg](./Homework/Hwk8/8_1.jpg)
+  * 报告：[作业8.md](./Homework/Hwk8/作业8.md)
+
 * [作业9：计算机视觉前沿技术](./Homework/Hwk9)
   * 题目：[CH09-课后作业.pdf](./Homework/Hwk9/CH09-课后作业.pdf)
-  * 解答：[9_1.jpg](./Homework/Hwk9/9_1.jpg)
-* 绘图源文件：[作业绘图.drawio](./Homework/作业绘图.drawio)
+  * 报告：[作业9.md](./Homework/Hwk9/作业9.md)
+
+* 部分绘图源文件：[作业绘图.drawio](./Homework/作业绘图.drawio)
