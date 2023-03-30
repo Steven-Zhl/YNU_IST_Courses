@@ -119,13 +119,11 @@
 
 * [作业1：图像变换](./Homework/Hwk1)
   * 计算表格：[最后一题计算表格.xlsx](./Homework/Hwk1/最后一题计算表格.xlsx)
-  * 报告：[作业1.docx](./Homework/Hwk1/作业1.docx)
+  * 报告：[作业1.md](./Homework/Hwk1/作业1.md)
 
 * [作业2：图像增强](./Homework/Hwk2)
   * 题目：[CH02-课后作业.pdf](./Homework/Hwk2/CH02-课后作业.pdf)
-  * 解答
-    * Page1：[2_1.jpg](./Homework/Hwk2/2_1.jpg)
-    * Page2：[2_2.jpg](./Homework/Hwk2/2_2.jpg)
+  * 报告：[作业2.md](./Homework/Hwk2/作业2.md)
 
 * [作业3：图像复原](./Homework/Hwk3)
   * 题目：[CH03-课后作业.pdf](./Homework/Hwk3/CH03-课后作业.pdf)
