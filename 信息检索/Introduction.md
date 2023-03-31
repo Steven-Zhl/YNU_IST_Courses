@@ -22,7 +22,7 @@
 
 * 实验1：三大检索
   * 实验内容：分别利用三大检索系统检索 2020年到2023年人工智能（Artificial Intelligence）应用到图像处理(Image Processing)的文献并分析检索结果。（将操作结果截图并分析结果）
-  * 实验报告：[实验报告](https://pan.quark.cn/s/71f98bc8a8b0)
+  * 实验报告：[Report-Exp1.docx](./Exp/Report-Exp1.docx)
 
 * 实验2：期末综合实验
   * 实验内容
@@ -37,8 +37,8 @@
     2. 详细写清楚实验步骤和实验结果，每缺一个步骤扣2分，每缺一个实验结果扣5分。
     3. 严格禁止相互抄袭和从网络下载拼凑。
     4. 分析问题的时候不能简单罗列事实和依据，要有自己的见解。
-  * 实验报告：[实验报告](https://pan.quark.cn/s/71f98bc8a8b0)
+  * 实验报告：[Report-Final.pdf](./Exp/Report-Final.pdf)
   * References
     * [SCI、EI、ISTP的区别和联系（三大检索） - 知乎](https://zhuanlan.zhihu.com/p/561437373)
     * [🎓科普知识：SCI，CPCI和EI论文检索的区别 - 知乎](https://zhuanlan.zhihu.com/p/582161055)
-    * [热心的学长(好时代，来临力)](https://github.com/AlphaGogoo/YNU-XXXY-Homework-Experience/tree/main/%E4%BF%A1%E6%81%AF%E6%A3%80%E7%B4%A2)
+    * [某位热心的学长(好时代，来临力)](https://github.com/AlphaGogoo/YNU-XXXY-Homework-Experience/tree/main/%E4%BF%A1%E6%81%AF%E6%A3%80%E7%B4%A2)
