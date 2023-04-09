@@ -46,6 +46,8 @@
 * [2. 模型评估与选择](https://docs.qq.com/slide/DSk1DQ3dEVHp2a3BL)
 * [3. 线性模型](https://docs.qq.com/slide/DSk5aeFRRYmJPU1J4)
 * [4. 决策树](https://docs.qq.com/slide/DSkdBcnJZWVBkdENw)
+* [5. 集成学习](https://docs.qq.com/slide/DSnZDZktQTFlnS0J3)
+* [6. 支持向量机](https://docs.qq.com/pdf/DSmJmeXRQckVMckpC)
 
 ## 教材
 
@@ -106,7 +108,21 @@
   * References
     * [New Bing](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx)
     * [demo.py](./Experiments/Exp2：决策树/Code/demo.py)
+* [实验3：支持向量机](./Experiments/Exp3：支持向量机)
+  * [源文件](./Experiments/Exp3：支持向量机/Code)
+    * [svm.py](./Experiments/Exp3：支持向量机/Code/svm.py)
+  * 数据集
+    * 线性可分数据集:[ex3data1.csv](./Experiments/Exp3：支持向量机/Code/ex3data1.csv)
+    * 线性不可分数据集:[ex3data2.csv](./Experiments/Exp3：支持向量机/Code/ex3data2.csv)
+  * 实验报告
+    * [Report.md](./Experiments/Exp3：支持向量机/Report.md)
+  * References
+    * [sklearn.svm.SVC — scikit-learn 1.2.2 documentation](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
+    * [【python】numpy的array与pandas的DataFrame转换_array转化为dataframe_Xhfei1224的博客-CSDN博客](https://blog.csdn.net/weixin_41990278/article/details/96284805)
+    * [python - UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names - Stack Overflow](https://stackoverflow.com/questions/73914558/userwarning-x-does-not-have-valid-feature-names-but-decisiontreeclassifier-was)
 
 ### [笔记](./Notes)
 
 * [Part01 绪论](./Notes/Part01-绪论.md)
+* [Part02 模型评估与选择](./Notes/Part02-模型评估与选择.md)
+* [Part03 线性模型](./Notes/Part03-线性模型.md) 
