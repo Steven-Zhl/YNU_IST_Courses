@@ -7,6 +7,12 @@
 * Windows 11
 * Matlab R2022a
 
+## 成绩构成
+
+* 思政报告+考勤 10%
+* 随堂测验、作业 30%
+* 期末考试 60%
+
 ## 教材
 
 * [《模式识别及MATLAB实现》 杨杰 主编，电子工业出版社](https://book.douban.com/subject/27116851/)
@@ -15,6 +21,33 @@
   * <img alt="模式识别及MATLAB实现学习与实验指导" width=256 src="https://img1.doubanio.com/view/subject/s/public/s29541448.jpg">
 
 ## 目录
+
+### [实验](./Experiments)
+
+* [实验1：贝叶斯分类器](./Experiments/Exp1)
+  * 源文件
+    * [iris_classfication.m](./Experiments/Exp1/Code/iris_classfication.m)
+  * 数据集
+    * 鸢尾花数据集：[iris.data](./Experiments/Exp1/Code/iris.data)
+  * 实验报告
+    * [Report.docx](./Experiments/Exp1/Report.docx)
+  * References
+    * [demo.m](./Experiments/Exp1/Code/demo.m)
+* [实验2：最大似然估计和贝叶斯估计](./Experiments/Exp2)
+  * 源文件
+    * [myNormalMLE.m](./Experiments/Exp2/Code/myNormalMLE.m)
+  * 实验报告
+    * [Report.docx](./Experiments/Exp2/Report.docx)
+  * References
+    * [demo_2.m](./Experiments/Exp2/Code/demo_2.m)
+* [实验3：Parzen窗估计](./Experiments/Exp3)
+  * 源文件
+    * [Parzen_GaussWindow.mlx](./Experiments/Exp3/Code/Parzen_GaussWindow.mlx)
+    * [Parzen_GaussWindow.m](./Experiments/Exp3/Code/Parzen_GaussWindow.m)
+  * 实验报告
+    * [Report.doc](./Experiments/Exp3/Report.doc)
+  * References
+    * 《模式识别及MATLAB实现学习与实验指导》 P.36、P.37
 
 ### 笔记
 
