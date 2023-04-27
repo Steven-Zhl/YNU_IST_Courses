@@ -12,6 +12,7 @@
   * PIL
   * tkinter
   * opencv-python
+* PyCharm 2021.1.3 (Professional Edition)
 
 ## 教材
 
