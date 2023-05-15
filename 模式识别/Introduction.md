@@ -33,6 +33,7 @@
     * [Report.docx](./Experiments/Exp1/Report.docx)
   * References
     * [demo.m](./Experiments/Exp1/Code/demo.m)
+
 * [实验2：最大似然估计和贝叶斯估计](./Experiments/Exp2)
   * 源文件
     * [myNormalMLE.m](./Experiments/Exp2/Code/myNormalMLE.m)
@@ -40,6 +41,7 @@
     * [Report.docx](./Experiments/Exp2/Report.docx)
   * References
     * [demo_2.m](./Experiments/Exp2/Code/demo_2.m)
+
 * [实验3：Parzen窗估计](./Experiments/Exp3)
   * 源文件
     * [Parzen_GaussWindow.mlx](./Experiments/Exp3/Code/Parzen_GaussWindow.mlx)
@@ -48,6 +50,15 @@
     * [Report.doc](./Experiments/Exp3/Report.doc)
   * References
     * 《模式识别及MATLAB实现学习与实验指导》 P.36、P.37
+
+* [实验4：感知器算法](./Experiments/Exp4)
+  * 源文件
+    * [Iris_classification.m](./Experiments/Exp4/Code/Iris_classification.m)
+  * 实验报告
+    * [Report.docx](./Experiments/Exp4/Report.docx)
+  * References
+    * [demo.m](./Experiments/Exp4/Code/demo.m)
+    * 《模式识别及MATLAB实现》 P.91、P.92、P.93
 
 ### 笔记
 
