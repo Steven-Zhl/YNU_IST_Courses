@@ -48,6 +48,9 @@
 * [4. 决策树](https://docs.qq.com/slide/DSkdBcnJZWVBkdENw)
 * [5. 集成学习](https://docs.qq.com/slide/DSnZDZktQTFlnS0J3)
 * [6. 支持向量机](https://docs.qq.com/pdf/DSmJmeXRQckVMckpC)
+* [7. 神经网络](https://docs.qq.com/slide/DSm9na01hRWZLUE9s)
+* [8. 卷积神经网络](https://docs.qq.com/slide/DSk1yVm1uVUNvQnlE)
+* [9. 循环神经网络](https://docs.qq.com/slide/DSlFGZEtpd2pVSUJY)
 
 ## 教材
 
@@ -79,7 +82,7 @@
 * [实验杂记](./Experiments/Jottings/Jottings.md)：一些问题和技巧，当你的实验出现Warning或Error时，可以来这里翻翻
 * [实验1：线性模型](./Experiments/Exp1：线性模型)
   * [源文件](./Experiments/Exp1：线性模型/Code)
-    * [regression_Vol1.0.py](./Experiments/Exp1：线性模型/Code/regression_Vol1.0.py)：最早的版本，盲目封装导致可读性非常差
+    * [regression_Vol1.0.py](./Experiments/Exp1：线性模型/Code/regression_Vol1.0.py)：最早的版本，盲目封装导致可读性非常差，是一个失败的版本
     * [regression_Vol1.1.py](./Experiments/Exp1：线性模型/Code/regression_Vol1.1.py)：大幅降低封装度，提高可读性，但方法与Vol1.0完全相同
     * [regression_Vol2.0.py](./Experiments/Exp1：线性模型/Code/regression_Vol2.0.py)：采用手动梯度下降替换`sklearn.LogisticRegression`，但效果不太好
   * 数据集
@@ -96,8 +99,9 @@
       * [吴恩达机器学习课程-作业2-逻辑回归（python实现）_生榨的椰汁的博客-CSDN博客](https://blog.csdn.net/weixin_44027820/article/details/104540762)
       * [machine-learning-Andrew/logistic_regression.py at 60bc802dc1b496f8ee2c2a2fd2cf92e41a6013e4 · WinterPan2017/machine-learning-Andrew](https://github.com/WinterPan2017/machine-learning-Andrew/blob/60bc802dc1b496f8ee2c2a2fd2cf92e41a6013e4/ex2_logistic_regression/logistic_regression.py#L90)
   * 后记
-    * > 这次手写梯度下降真的快把我逼疯了
+    * > 这次手写梯度下降真的快把我逼疯了，emmm一定是我太菜了罢
     * ![Exp1Ques2的尝试log](./IMG/Exp1Ques2的尝试log.jpg)
+
 * [实验2：决策树](./Experiments/Exp2：决策树)
   * [源文件](./Experiments/Exp2：决策树/Code)
     * [decision.py](./Experiments/Exp2：决策树/Code/decision.py)
@@ -108,6 +112,7 @@
   * References
     * [New Bing](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx)
     * [demo.py](./Experiments/Exp2：决策树/Code/demo.py)
+
 * [实验3：支持向量机](./Experiments/Exp3：支持向量机)
   * [源文件](./Experiments/Exp3：支持向量机/Code)
     * [svm.py](./Experiments/Exp3：支持向量机/Code/svm.py)
@@ -121,8 +126,21 @@
     * [【python】numpy的array与pandas的DataFrame转换_array转化为dataframe_Xhfei1224的博客-CSDN博客](https://blog.csdn.net/weixin_41990278/article/details/96284805)
     * [python - UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names - Stack Overflow](https://stackoverflow.com/questions/73914558/userwarning-x-does-not-have-valid-feature-names-but-decisiontreeclassifier-was)
 
+* [实验4：神经网络](./Experiments/Exp4：神经网络)
+  * [源文件](./Experiments/Exp4：神经网络/Code)
+    * [neural_network.py](./Experiments/Exp4：神经网络/Code/neural_network.py)
+  * 数据集(和实验1相同)
+    * 题1数据集:[ex1data.csv](./Experiments/Exp4：神经网络/Code/ex1data.csv)
+    * 题2数据集:[ex1data2.csv](./Experiments/Exp4：神经网络/Code/ex1data2.csv)
+  * 实验报告
+    * [Report.md](./Experiments/Exp4：神经网络/Report.md)
+  * References
+    * 暂无
+  * 后记
+    * 需要说明的是，在[neural_network.py](./Experiments/Exp4：神经网络/Code/neural_network.py)中，我对于`optim.Adam()`设置了`lr = 0.01`——这规定了每步迭代的学习率恒为0.01，但Adam是自适应学习率的优化器，不应该对其做限制。所以在你的代码中，请删去这一点，或者自行尝试更好的学习率。
+
 ### [笔记](./Notes)
 
 * [Part01 绪论](./Notes/Part01-绪论.md)
 * [Part02 模型评估与选择](./Notes/Part02-模型评估与选择.md)
-* [Part03 线性模型](./Notes/Part03-线性模型.md) 
+* [Part03 线性模型](./Notes/Part03-线性模型.md)
