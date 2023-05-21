@@ -60,6 +60,14 @@
     * [demo.m](./Experiments/Exp4/Code/demo.m)
     * 《模式识别及MATLAB实现》 P.91、P.92、P.93
 
+* [实验5：线性判别分析](./Experiments/Exp5)
+  * 源文件
+    * [LDA_demo.m](./Experiments/Exp5/Code/LDA_demo.m)
+  * 数据集
+    * 鸢尾花数据集：[iris.data](./Experiments/Exp5/Code/iris.data)
+  * 实验报告
+    * [Report.docx](./Experiments/Exp5/Report.docx)
+
 ### 笔记
 
 * [x] [Part02 贝叶斯决策理论](./Notes/Part02-贝叶斯决策理论.md)
