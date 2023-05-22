@@ -17,29 +17,29 @@
 
 ## 大一-第二学期
 
-* [面向对象程序设计](./面向对象程序设计/Introduction.md)
+* [面向对象程序设计](./面向对象程序设计/README.md)
 
 ## 大二-第一学期
 
-* [人工智能程序设计](./人工智能程序设计/Introduction.md)
-* [数据结构](./数据结构/Introduction.md)
+* [人工智能程序设计](./人工智能程序设计/README.md)
+* [数据结构](./数据结构/README.md)
 
 ## 大二-第二学期
 
-* [算法设计与分析](./算法设计与分析/Introduction.md)
+* [算法设计与分析](./算法设计与分析/README.md)
 
 ## 大三-第一学期
 
-* [操作系统](./操作系统/Introduction.md)
-* [机器人学导论](./机器人学导论/Introduction.md)
-* [计算机网络](./计算机网络/Introduction.md)
-* [数据库技术](./数据库技术/Introduction.md)
-* [算法与程序设计竞赛提升](./算法与程序设计竞赛提升/Introduction.md)
-* [图像理解与计算机视觉](./图像理解与计算机视觉/Introduction.md)
-* [信息检索](./信息检索/Introduction.md)
-* [运筹学](./运筹学/Introduction.md)
+* [操作系统](./操作系统/README.md)
+* [机器人学导论](./机器人学导论/README.md)
+* [计算机网络](./计算机网络/README.md)
+* [数据库技术](./数据库技术/README.md)
+* [算法与程序设计竞赛提升](./算法与程序设计竞赛提升/README.md)
+* [图像理解与计算机视觉](./图像理解与计算机视觉/README.md)
+* [信息检索](./信息检索/README.md)
+* [运筹学](./运筹学/README.md)
 
 ## 大三-第二学期
 
-* [机器学习](./机器学习/Introduction.md)
-* [模式识别](./模式识别/Introduction.md)
+* [机器学习](./机器学习/README.md)
+* [模式识别](./模式识别/README.md)

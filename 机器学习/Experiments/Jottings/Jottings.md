@@ -19,6 +19,7 @@
 
     ```python
     import matplotlib
+    
     matplotlib.use('TkAgg')
     # 'TkAgg'使用的是Tkinter，Python自带GUI，免安装。也可以使用'Qt5Agg'，但是需要当前环境中已经安装PyQt5
     ```

@@ -26,16 +26,16 @@
 > 因此建议这些实验项目的包名就按照`pers.你的名字.实验XX`的格式来写，比如`pers.stevenzhl.exp1`。注意包名应当全部小写，且不要有空格。
 
 * [实验1：幸运抽奖](./Experiments/Exp1：幸运抽奖)
-  * 源代码：[Code](./Experiments/Exp1：幸运抽奖/Code)
+  * 源代码：[Code](./Experiments/Exp1：幸运抽奖/src)
   * 实验报告：[Report.docx](./Experiments/Exp1：幸运抽奖/Report.docx)
 * [实验2：人机猜拳](./Experiments/Exp2：人机猜拳)
-  * 源代码：[Code](./Experiments/Exp2：人机猜拳/Code)
+  * 源代码：[Code](./Experiments/Exp2：人机猜拳/src)
   * 实验报告：[Report.docx](./Experiments/Exp2：人机猜拳/Report.docx)
 * [实验3：DVD管理系统](./Experiments/Exp3：DVD管理系统)
   * 源代码：似乎不慎搞丢了
   * 实验报告：[Report.docx](./Experiments/Exp3：DVD管理系统/Report.docx)
 * [实验4：QuickHit](./Experiments/Exp4：QuickHit)
-  * 源代码：[Code](./Experiments/Exp4：QuickHit/Code)
+  * 源代码：[Code](./Experiments/Exp4：QuickHit/src)
   * 实验报告：[Report.docx](./Experiments/Exp4：QuickHit/Report.docx)
 
 ## [作业](./Homework)
