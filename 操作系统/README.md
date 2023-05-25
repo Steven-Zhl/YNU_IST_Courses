@@ -27,6 +27,10 @@
 
 ## 目录
 
+### [实验PPT](https://pan.quark.cn/s/b8d0433ce89a)
+
+> 跳转到夸克网盘下载
+
 ### [实验](./Experiments)
 
 * [实验1：进程管理与进程间通信](./Experiments/Exp1：进程管理与进程间通信)
