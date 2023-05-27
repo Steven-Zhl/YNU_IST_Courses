@@ -5,11 +5,22 @@
 ## 使用环境
 
 * Windows 11
-* Python 3.10 (Based on Anaconda3)
-  * numpy 1.23.5
-  * matplotlib 3.7.1
-  * pandas 1.5.3
-  * scikit-learn 1.2.1
+* Python 3.11.3 (Based on Anaconda3)
+  
+  | 库 | 版本 | 功能描述 |
+  | :-: | :-: | :-: |
+  | graphviz | 0.20.1 | 可视化决策树 |
+  | jieba | 0.42.1 | 中文分词 |
+  | keras | 2.12.0 | 深度学习 |
+  | matplotlib | 3.7.1 | 绘图 |
+  | numpy | 1.23.5 | 矩阵运算 |
+  | pandas | 2.0.0 | 数据处理 |
+  | scikit-learn | 1.2.2 | 机器学习 |
+  | tensorboard | 2.12.3 | 深度学习 |
+  | tensorflow | 2.12.0 | 深度学习 |
+  | torch | 2.0.0+cu118 | 深度学习 |
+  | torchvision | 0.15.1+cu118 | 深度学习 |
+  | Werkzeug | 2.3.3 | 深度学习 |
 * PyCharm Professional 2022.1
 * Draw.io
 
@@ -51,6 +62,8 @@
 * [7. 神经网络](https://docs.qq.com/slide/DSm9na01hRWZLUE9s)
 * [8. 卷积神经网络](https://docs.qq.com/slide/DSk1yVm1uVUNvQnlE)
 * [9. 循环神经网络](https://docs.qq.com/slide/DSlFGZEtpd2pVSUJY)
+* [10. Transformer](https://docs.qq.com/slide/DSndJeGNqb2JIQkJp)
+* [11. 贝叶斯分类器](https://docs.qq.com/pdf/DSkROUGVNc3ZFT25x)
 
 ## 教材
 
@@ -138,6 +151,29 @@
     * 暂无
   * 后记
     * 需要说明的是，在[neural_network.py](./Experiments/Exp4：神经网络/Code/neural_network.py)中，我对于`optim.Adam()`设置了`lr = 0.01`——这规定了每步迭代的学习率恒为0.01，但Adam是自适应学习率的优化器，不应该对其做限制。所以在你的代码中，请删去这一点，或者自行尝试更好的学习率。
+
+* [实验5：深度学习](./Experiments/Exp5：深度学习)
+  * [源文件](./Experiments/Exp5：深度学习/Code)
+    * [alexnet.py](./Experiments/Exp5：深度学习/Code/alexnet.py)
+    * [lstm.py](./Experiments/Exp5：深度学习/Code/lstm.py)
+  * 数据集
+    * 题1数据集：[cifar-10-batches-py](./Experiments/Exp5：深度学习/Code/Data/cifar-10-batches-py)
+    * 题2数据集：[comments.csv](./Experiments/Exp5：深度学习/Code/Data/comments.csv) 注：同文件夹下的chineseStopWords.txt为中文停用词表，与该数据集一同使用
+  * 实验报告
+    * [Report.md](./Experiments/Exp5：深度学习/Report.md)
+  * References
+    * [CodeDemo](./Experiments/Exp5：深度学习/CodeDemo)：助教给的数据处理的示例代码。
+    * [Training a Classifier — PyTorch Tutorials 2.0.1+cu117 documentation](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)：官方提供的针对CIFAR-10的分类器训练教程，但模型并不是AlexNet。
+    * [Given input size: (256x1x1). Calculated output size: (256x0x0) - PyTorch Forums](https://discuss.pytorch.org/t/given-input-size-256x1x1-calculated-output-size-256x0x0/40941)：关于使用CIFAR-10和AlexNet做图像分类，代码参考价值较高，该帖讨论的问题我也遇到了。
+    * [gensim使用汇总_model.wv.vocab_herosunly的博客-CSDN博客](https://blog.csdn.net/herosunly/article/details/105990100)：看完就大致明白如何训练词向量了。
+    * [【TensorFlow】 利用LSTM进行情感分析_duanlianvip的博客-CSDN博客](https://blog.csdn.net/duanlianvip/article/details/103584543)：含原理讲解，十分详细，但可惜代码是Tensorflow 1.X的，很多语法已不可用。
+    * [基于长短时神经网络(LSTM)+word2vec的情感分析_pythoner_116的博客-CSDN博客](https://blog.csdn.net/qq_43548498/article/details/104038009)：相对上一篇较新，和上一篇参考着来。
+    * [tensorboard使用详解 - 知乎](https://zhuanlan.zhihu.com/p/115802478)
+  * 后记
+    * Tensorflow能不用就不用，会带来不幸。
+    * Tensorboard启动时注意先cd到Log文件夹的上级再输入相对路径启动，且整个绝对路径中不能有中文或奇怪符号。
+    * Tensorflow中可以对LSTM使用GPU加速——用`tf.keras.layers.CuDNNLSTM`替换`tf.keras.layers.LSTM`，并修改一些参数。但鉴于第二个题计算量不大，所以干脆就没GPU加速。
+    * 第一个题中优化器使用的Adam，按理说不应该固定其学习率，因为该优化器会动态调整学习率。但不指定学习率的效果反而更差(损失下降缓慢，且波动大)，故最后仍保留了LR=5e-5的超参数。
 
 ### [笔记](./Notes)
 

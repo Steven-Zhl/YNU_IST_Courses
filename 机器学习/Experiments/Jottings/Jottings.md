@@ -39,7 +39,10 @@
 
 ### 1. `graphviz.backend.ExecutableNotFound`
 
-> 2023-03-27 记录
+* 原因：
+  * 未安装graphviz(它除了pip库，还需要额外安装后端)或未将安装路径的bin目录添加到环境变量中
+* 解决方法：
+  * 没安装就去安装，安装了检查环境变量中是否包含了graphviz的bin目录路径
 
 ## pandas
 
@@ -55,3 +58,71 @@
 * 解决方法：
   * 很简单，只需要在数据预处理的过程中额外添加一步，将`DataFrame`转换为`numpy.ndarray`，(通常直接套一个`numpy.array()`即可)。
     * > 不建议将`numpy.ndarray`转换为`DataFrame`，因为`DataFrame`中有`feature name`属性，这么转换会增加很多无谓的麻烦。
+
+## gensim
+
+> gensim是一个自然语言处理的工具包，能够从原始的非结构化的文本中，无监督地学习到文本隐层的主题向量表达。通常用于语料处理。
+
+### 1.  `AttributeError`
+
+* 提示内容：
+  * `AttributeError: The vocab attribute was removed from KeyedVector in Gensim 4.0.0.`
+  * `Use KeyedVector's .key_to_index dict, .index_to_key list, and methods .get_vecattr(key, attr) and .set_vecattr(key, attr, new_val) instead.`
+* 原因：
+  * 说的很明白了，在Gensim 4.0.0之后，`Word2Vec.wv.vocab`已被移除，需要用提供的几种方法替换。
+  * 那么如何确定该换用哪个方法呢？建议debug看看这几种方法的返回值，确定哪个是自己需要的。
+
+## Tensorboard
+
+> Tensorboard是Tensorflow的可视化工具，谷歌出品，流畅且美观，秒杀plt和graphviz。
+>
+> 但稍微有些小坑
+
+### 1. 代码中调用Tensorflow
+
+> 下面给出在两个主流框架中，调用Tensorboard的示例代码
+
+* PyTorch+Tensorboard
+
+```python
+from torch.utils.tensorboard import SummaryWriter
+
+......
+
+writer = SummaryWriter(log_dir='AlexNet_Logs') # 数据log的输出路径，该路径是相对于当前文件而言的
+for epoch in range(EPOCHS):
+    ......
+    loss = criterion(outputs, labels) # 计算损失
+    accuracy = (outputs.argmax(1) == labels).sum().item() / BATCH_SIZE # 计算准确率
+    ...... # 更新权重之类的
+    writer.add_scalar('Train/Loss', loss.item(), global_step=step)
+    writer.add_scalar('Train/Accuracy', accuracy, global_step=step)
+```
+
+* Tensorflow+Tensorboard
+
+```python
+from keras.callbacks import TensorBoard
+import tensorflow as tf
+
+......
+
+writer = tf.summary.create_file_writer(log_dir='LSTM_Logs') # 数据log的输出路径，该路径是相对于当前文件而言的
+tb_callback = TensorBoard(log_dir='LSTM_Logs', histogram_freq=1, write_graph=True, write_images=True) # 创建一个回调，用于提供Tensorboard数据
+model.fit(X_train, y_train, batch_size=BATCH_SIZE, epochs=EPOCHS, callbacks=[tb_callback]) # 在fit中指定回调
+
+......
+
+```
+
+### 2. 命令行启动tensorboard
+
+> 注意，请保证完整路径中不包含中文、特殊符号等。
+
+```shell
+# 先cd到执行的代码的目录
+cd /home/Experiments/Code
+tensorboard --logdir="AlexNet_Logs" # 指定数据log的路径
+```
+
+随后就可以在浏览器中打开[`http://localhost:6006/`](http://localhost:6006/)查看数据了。
