@@ -33,11 +33,20 @@
 * 考勤5%
 * 课堂参与(回答问题)5%
 * 期末考试60%
-* <img alt="理论课成绩构成" width=512 src="./IMG/理论课成绩构成.png">
+
+```mermaid
+pie
+  title 成绩构成
+  "平时作业" : 20
+  "随堂测验" : 10
+  "考勤" : 5
+  "课堂参与(回答问题)" : 5
+  "期末考试" : 60
+```
 
 ### 实验课
 
-* 6次平时实验($6\times 10\%$)
+* 6次平时实验(6×10%)
   * > 代码实现5%、报告撰写4%、考勤和课堂参与1%
   * 线性模型
   * 决策树与集成学习
@@ -45,9 +54,21 @@
   * 神经网络
   * 深度学习
   * 聚类算法
-* 期末大作业
+* 期末大作业(40%)
   * > 选题5%、报告10%、Presentation5%
   * 自主选题，独立完成
+
+```mermaid
+pie
+  title 成绩构成
+  "平时实验-线性模型" : 10
+  "平时实验-决策树与集成学习" : 10
+  "平时实验-SVM" : 10
+  "平时实验-神经网络" : 10
+  "平时实验-深度学习" : 10
+  "平时实验-聚类算法" : 10
+  "期末大作业" : 40
+```
 
 ## 课程
 
@@ -89,6 +110,17 @@
   * References
     * [决策树DecisionTree（附代码实现） - 知乎](https://zhuanlan.zhihu.com/p/149510491)
     * [New Bing](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx)
+* [作业3](./Homework/Hwk3)
+  * 作业报告:[作业3.docx](./Homework/Hwk3/作业3.docx)
+  * 题3绘图:[题3绘图.drawio](./Homework/Hwk3/题3绘图.drawio)
+  * References
+    * 忘了
+* 作业4
+  * > 因为参考了别人的作业(md，把抄说这么好听)，所以不放了。只列一些参考资料
+  * References
+    * [【神经网络】LSTM_输入门输出门遗忘门_DonngZH的博客-CSDN博客](https://blog.csdn.net/weixin_44750512/article/details/128838455)
+    * [如何计算 LSTM 的参数量 - 知乎](https://zhuanlan.zhihu.com/p/147496732)
+    * [Transformer模型详解（图解最完整版） - 知乎](https://zhuanlan.zhihu.com/p/338817680)
 
 ### [实验](./Experiment)
 
@@ -113,7 +145,6 @@
       * [machine-learning-Andrew/logistic_regression.py at 60bc802dc1b496f8ee2c2a2fd2cf92e41a6013e4 · WinterPan2017/machine-learning-Andrew](https://github.com/WinterPan2017/machine-learning-Andrew/blob/60bc802dc1b496f8ee2c2a2fd2cf92e41a6013e4/ex2_logistic_regression/logistic_regression.py#L90)
   * 后记
     * > 这次手写梯度下降真的快把我逼疯了，emmm一定是我太菜了罢
-    * ![Exp1Ques2的尝试log](./IMG/Exp1Ques2的尝试log.jpg)
 
 * [实验2：决策树](./Experiments/Exp2：决策树)
   * [源文件](./Experiments/Exp2：决策树/Code)
