@@ -29,12 +29,12 @@
   * [3.5.3 MvM](#353-mvm)
   * [3.5.4 ECOC](#354-ecoc)
 * [3.6 类别不平衡问题](#36-类别不平衡问题)
-* [Extra03 知识总结](#extra03-知识总结)
+* [Extra03-总结](#extra03-总结)
 * [Ques03-例题整理](#ques03-例题整理)
   * [\[公式推导·利用逻辑回归求导性质\]](#公式推导利用逻辑回归求导性质)
     * [(1) Logistic函数的导数性质](#1-logistic函数的导数性质)
-    * [(2) 计算$\\frac{\\partial J(\\theta)}{\\partial z}$](#2-计算fracpartial-jthetapartial-z)
-  * [(3) 计算$\\frac{\\partial J(\\theta)}{\\partial \\theta\_j}$](#3-计算fracpartial-jthetapartial-theta_j)
+    * [(2) 计算$\frac{\partial J(\theta)}{\partial z}$](#2-计算fracpartial-jthetapartial-z)
+  * [(3) 计算$\frac{\partial J(\theta)}{\partial \theta_j}$](#3-计算fracpartial-jthetapartial-theta_j)
 
 # 3.1 基本形式
 
@@ -247,20 +247,16 @@ $$\max J=\frac{||\omega^T\mu_0-\omega^T\mu_1||_2^2}{\omega^T\Sigma_0\omega+\omeg
 
 > 咕咕咕
 
-# Extra03 知识总结
+# Extra03-总结
 
 * 本章的知识脉络如下
 
 ```mermaid
 graph LR
-线性模型-->线性回归
-线性模型-->对数几率回归/Logistic回归
+线性模型-->线性回归-->闭式解求法:最小二乘法
+线性模型-->对数几率回归/Logistic回归-->Logistic函数-->求梯度
 线性模型-->线性判别分析-->了解思想即可,不要求计算
 线性模型-->多分类问题
-
-线性回归-->闭式解求法:最小二乘法
-
-对数几率回归/Logistic回归-->Logistic函数-->求梯度
 
 多分类问题-->OvO
 多分类问题-->OvR
