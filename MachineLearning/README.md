@@ -4,7 +4,7 @@
 
 ## 使用环境
 
-* Windows 11
+* Windows 11/EndeavourOS
 * Python 3.11.3 (Based on Anaconda3)
   
   | 库 | 版本 | 功能描述 |
@@ -18,9 +18,10 @@
   | scikit-learn | 1.2.2 | 机器学习 |
   | tensorboard | 2.12.3 | 深度学习 |
   | tensorflow | 2.12.0 | 深度学习 |
-  | torch | 2.0.0+cu118 | 深度学习 |
+  | torch | 2.0.1+cu118 | 深度学习 |
   | torchvision | 0.15.1+cu118 | 深度学习 |
   | Werkzeug | 2.3.3 | 深度学习 |
+  | torch_geometric | 2.3.1 | 图神经网络 |
 * PyCharm Professional 2022.1
 * Draw.io
 
@@ -70,7 +71,15 @@ pie
   "期末大作业" : 40
 ```
 
-## 课程
+## 教材
+
+* [《机器学习》周志华，清华大学出版社](https://book.douban.com/subject/26708119/)
+  * 通常称其为“西瓜书”
+  * <img alt="机器学习" width=256 src="https://img1.doubanio.com/view/subject/s/public/s28735609.jpg">
+
+## 目录
+
+### PPT
 
 > PPT通过腾讯文档分享，且并未提供下载
 
@@ -85,14 +94,10 @@ pie
 * [9. 循环神经网络](https://docs.qq.com/slide/DSlFGZEtpd2pVSUJY)
 * [10. Transformer](https://docs.qq.com/slide/DSndJeGNqb2JIQkJp)
 * [11. 贝叶斯分类器](https://docs.qq.com/pdf/DSkROUGVNc3ZFT25x)
-
-## 教材
-
-* [《机器学习》周志华，清华大学出版社](https://book.douban.com/subject/26708119/)
-  * 通常称其为“西瓜书”
-  * <img alt="机器学习" width=256 src="https://img1.doubanio.com/view/subject/s/public/s28735609.jpg">
-
-## 目录
+* [12. 聚类](https://docs.qq.com/pdf/DSm5FTHRwd21OZVRN)
+* [13. 降维](https://docs.qq.com/pdf/DSkpCYVZUWGtqTkRW)
+* [14. 概率图模型](https://docs.qq.com/pdf/DSnJiYm5GV2ZwQUNv)
+* [15. 强化学习](https://docs.qq.com/pdf/DSm1FR0pQaUVaVkh0?)
 
 ### [作业](./Homework)
 
@@ -121,6 +126,8 @@ pie
     * [【神经网络】LSTM_输入门输出门遗忘门_DonngZH的博客-CSDN博客](https://blog.csdn.net/weixin_44750512/article/details/128838455)
     * [如何计算 LSTM 的参数量 - 知乎](https://zhuanlan.zhihu.com/p/147496732)
     * [Transformer模型详解（图解最完整版） - 知乎](https://zhuanlan.zhihu.com/p/338817680)
+* [作业5](./Homework/Hwk5)
+  * 作业报告:[作业5.docx](./Homework/Hwk5/作业5.docx)
 
 ### [实验](./Experiment)
 
@@ -205,6 +212,7 @@ pie
     * Tensorboard启动时注意先cd到Log文件夹的上级再输入相对路径启动，且整个绝对路径中不能有中文或奇怪符号。
     * Tensorflow中可以对LSTM使用GPU加速——用`tf.keras.layers.CuDNNLSTM`替换`tf.keras.layers.LSTM`，并修改一些参数。但鉴于第二个题计算量不大，所以干脆就没GPU加速。
     * 第一个题中优化器使用的Adam，按理说不应该固定其学习率，因为该优化器会动态调整学习率。但不指定学习率的效果反而更差(损失下降缓慢，且波动大)，故最后仍保留了LR=5e-5的超参数。
+
 * [实验6：聚类和提示学习](./Experiments/Exp6)
   * [源文件](./Experiments/Exp6/Code)
     * [k-means.py](./Experiments/Exp6/Code/k-means.py)
@@ -224,6 +232,14 @@ pie
       4. 将`chatglm-6b.py`和数据集`comments.csv`以及`ChatGLM-6B-INT4`文件夹放在一个PyCharm项目中，该项目的路径中不要有中文或其他字符。
       5. 在PyCharm中运行`chatglm-6b.py`即可。
     * 或者你可以直接从[百度网盘](https://pan.baidu.com/s/11O6hsGq9puiprC4SrDefxw?pwd=1234)中下载已打包的项目，适用于Windows+CUDA 11及以上，包含完整的Python 3.10虚拟环境；torch版本为2.0.1+cu118，适用于大多数20/30/40系显卡。解压后直接用PyCharm打开项目运行即可。
+
+* [实验-期末](./Experiments/ExpFinal)
+  * [源文件](./Experiments/ExpFinal/Code)
+  * 数据集：[mal-anime | Kaggle](https://www.kaggle.com/datasets/shafiwalsher/myanimelist-dataset-2023-top-15000)
+  * 实验报告：
+    * [main.tex](./Experiments/ExpFinal/Docs/LaTeX-Report/main.tex)：LaTeX报告
+    * [report.pdf](./Experiments/ExpFinal/Docs/LaTeX-Report/report.pdf)：PDF版报告
+  * 详细说明：[README.md](./Experiments/ExpFinal/README.md)
 
 ### [笔记](./Notes)
 
