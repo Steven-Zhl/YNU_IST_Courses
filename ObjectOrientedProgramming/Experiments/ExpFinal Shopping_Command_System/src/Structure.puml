@@ -1,0 +1,172 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Main {
+    public static void main(String[] args)
+}
+
+abstract class Person{
+    String account, password;
+    boolean loginState;
+    ArrayList<Item> MallItems;
+    static final File SHOPPING_ITEM_LIST_FILE;
+    static final File ADMIN_ACCOUNT_LIST_FILE;
+    static final File USER_ACCOUNT_LIST_FILE;
+    InputChecker inputChecker;
+
+    boolean login();
+    public boolean changePassword()
+    public boolean changePassword(String account, String newPassword)
+    public void initializeShopping()
+    public int searchItemIndexByName(String name)
+    ArrayList<Integer> searchItemData(int findKind, String keyWord)
+    public String getAccount()
+    public boolean getLoginState()
+    public String getPassword()
+    public void setPassword(String password)
+    public File getPersonalAccountMessageFile()
+    public File getPersonalAccountMessageFile(String account)
+    public File getPersonalAccountHistoryFile()
+    public File getPersonalAccountHistoryFile(String account)
+    public File getPersonalAccountCurtFile()
+    public File getPersonalAccountCurtFile(String account)
+    public ArrayList<String> getEveryLineMessageFromFile(File filePath)
+    public boolean writeInFile(ArrayList<String> inputContents, File filePath)
+    public String getMD5String(String str)
+}
+
+class Admin extends Person{
+    private ArrayList<User> allUserData;
+    InputChecker inputChecker;
+
+    public Admin()
+    private void initializeAllUserData()
+    public int commandUser_showAllUserMessage()
+    private ArrayList<Integer> searchUserData()
+    public void commandUser_searchUserMessage()
+    public void commandUser_removeUserMessage()
+    public void commandUser_resetUserPassword()
+    public void commandUser_writeInFile()
+    public int commandItem_showAllItemMessage()
+    public void commandItem_addItemMessage()
+    public void commandItem_searchItemMessage()
+    public void commandItem_modifyItemMessage()
+    public void commandItem_removeItemMessage()
+    public void commandItem_writeInFile()
+}
+
+class User extends Person{
+    private int level;
+    private Date registerTime;
+    private float totalCost;
+    private String telephone;
+    private String mail;
+    boolean registerState = false;
+    private ArrayList<Item> curt;
+    private ArrayList<String> shoppingHistory;
+    InputChecker inputChecker;
+
+    public User(String account, String password)
+    public User(String choice)
+    private void register()
+    public void initializeUserMessage()
+    public void initializeShoppingHistory()
+    public void initializeCurtData()
+    public void showAllMessage()
+    public String getAccountWriteInString()
+    public void findPassword()
+    public int showAllItemInCurt()
+    public void addItemToCurt()
+    public void removeItemInCurt()
+    public void decreaseItemNumInCurt()
+    public void payForCurt()
+    public void showTheHistoryOfShopping()
+    public void exitMenu()
+    public void setLevel(String level)
+    public void setLevel(int level)
+    public int getLevel()
+    public String getRegisterTime()
+    public void setRegisterTime()
+    public void setTotalCost(String totalCost)
+    public void setTotalCost(float totalCost)
+    public float getTotalCost()
+    public void setTelephone(String telephone)
+    public String getTelephone()
+    public void setMail(String mail)
+    public String getMail()
+}
+
+class Item{
+    private String name;
+    private String manufacturer;
+    private String manuDate;
+    private String type;
+    private float buyingPrice;
+    private float sellPrice;
+    private int num;
+
+    public Item(String originalData)
+    public Item()
+    public void showAllMessageForAdmin()
+    public void showAllMessageForUser()
+    public String getWriteInString()
+    public void copy(Item another)
+    public String getName()
+    public void setName(String name)
+    public String getManufacturer()
+    public void setManufacturer(String manufacturer)
+    public String getManuDate()
+    public void setManuDate(String manuDate)
+    public String getType()
+    public void setType(String type)
+    public float getBuyingPrice()
+    public void setBuyingPrice(String buyingPrice)
+    public float getSellPrice()
+    public void setSellPrice(String sellPrice)
+    public int getNum()
+    public void setNum(String num)
+    public void setNum(int num)
+}
+
+class InputChecker{
+Scanner input;
+
+public int checkSwitchRange(int totalSwitch)
+public boolean alertAndConfirm()
+public boolean checkPasswordLegality(String inputPassword)
+public boolean checkAccountLegality(String inputAccount, File UserAccountsFilePath)
+public boolean checkMailLegality(String inputMail)
+public boolean checkTelephoneLegality(String inputTelephone)
+public String getInputString()
+}
+
+class OperatorPage{
+    Person person;
+    private final int IDENTITY_USER = 1, IDENTITY_ADMIN = 2, IDENTITY_EXIT = 3;// 身份标识常量
+    private int identity;
+    InputChecker inputChecker;
+
+    public OperatorPage()
+    private void showWelcomePage()
+    private void switchIdentity()
+    private void showAccountActivity()
+    private void switchAccountActivity()
+    private void showMenu()
+    private void switchMenu(int choice)
+    private void showAdminCommandItemMenu()
+    private void switchAdminCommandItemMenu(int choice)
+    public void showAdminCommandUserMenu()
+    private void switchAdminCommandUserMenu(int choice)
+    private void showUserShoppingSystem()
+    private void switchUserShoppingSystem(int choice)
+}
+InputChecker <.. Person
+InputChecker <.. Admin
+InputChecker <.. User
+InputChecker <.. OperatorPage
+User <-- Admin
+Item <-- Person
+Item <-- User
+OperatorPage <-- Main
+Person <-- OperatorPage
+@enduml
