@@ -240,9 +240,3 @@ pie
     * [main.tex](./Experiments/ExpFinal/Docs/LaTeX-Report/main.tex)：LaTeX报告
     * [report.pdf](./Experiments/ExpFinal/Docs/LaTeX-Report/report.pdf)：PDF版报告
   * 详细说明：[README.md](./Experiments/ExpFinal/README.md)
-
-### [笔记](./Notes)
-
-* [Part01 绪论](./Notes/Part01-绪论.md)
-* [Part02 模型评估与选择](./Notes/Part02-模型评估与选择.md)
-* [Part03 线性模型](./Notes/Part03-线性模型.md)

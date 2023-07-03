@@ -1,6 +1,8 @@
 # 模式识别
 
 > 模式识别为智能科学与技术专业的核心课程之一，也是从事人工智能相关研究的基础课程，也是十分重要的。
+>
+> CJ是好人，教课认真详细，期末出卷也不为难人，好人好人
 
 ## 使用环境
 
@@ -9,9 +11,13 @@
 
 ## 成绩构成
 
-* 思政报告+考勤 10%
-* 随堂测验、作业 30%
-* 期末考试 60%
+```mermaid
+pie
+title 成绩构成
+  "思政报告&考勤" : 10
+  "随堂测验&作业" : 30
+  "期末考试" : 60
+```
 
 ## 教材
 
@@ -21,6 +27,13 @@
   * <img alt="模式识别及MATLAB实现学习与实验指导" width=256 src="https://img1.doubanio.com/view/subject/s/public/s29541448.jpg">
 
 ## 目录
+
+### PPT
+
+* [百度网盘](https://pan.baidu.com/s/1-SpMVQ3jjJo64-bU2eeigw?pwd=5gya)：提取码**5gya**
+* [阿里云盘](https://www.aliyundrive.com/s/qzhLLMZs276)
+* [夸克网盘](https://pan.quark.cn/s/61d8b936b498)
+* [蓝奏云](https://steven-zhl.lanzoul.com/b04e7369e)：密码**5qq2**
 
 ### [实验](./Experiments)
 
@@ -83,8 +96,3 @@
     * [训练残差网络进行图像分类 - MATLAB & Simulink - MathWorks 中国](https://ww2.mathworks.cn/help/deeplearning/ug/train-residual-network-for-image-classification.html)
     * [Create 2-D residual network - MATLAB resnetLayers - MathWorks 中国](https://ww2.mathworks.cn/help/deeplearning/ref/resnetlayers.html)
     * [Matlab：trainingOptions()详解 训练选项_璇焱如柳的博客-CSDN博客](https://blog.csdn.net/a1367666195/article/details/112323834)
-
-### 笔记
-
-* [x] [Part02 贝叶斯决策理论](./Notes/Part02-贝叶斯决策理论.md)
-* [ ] [Part03 概率密度函数的参数估计](./Notes/Part03-概率密度函数的参数估计.md)
