@@ -1,0 +1,87 @@
+<mxfile host="65bd71144e">
+    <diagram id="Uo7Vj2YLyYwsoy8zxMVA" name="第 1 页">
+        <mxGraphModel dx="764" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="26" style="edgeStyle=none;html=1;fontFamily=Helvetica;endArrow=open;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillOpacity=100;" parent="1" source="6" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="281" y="233" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="观察者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillOpacity=100;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="178" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="html=1;endArrow=block;endFill=0;fillOpacity=100;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="164.5" y="358" as="sourcePoint"/>
+                        <mxPoint x="164.5" y="288" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;endArrow=open;endFill=0;fillOpacity=100;" parent="1" source="7" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;endArrow=open;endFill=0;fillOpacity=100;" parent="1" source="7" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;endArrow=open;endFill=0;fillOpacity=100;" parent="1" source="7" target="18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="控制者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillOpacity=100;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="388" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;fontFamily=Times New Roman;endArrow=open;endFill=0;fillOpacity=100;" parent="1" source="9" target="18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;font face=&quot;Helvetica&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;fillOpacity=100;" parent="19" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3946" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-1" y="-11" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;fontFamily=Helvetica;endArrow=open;endFill=0;fillOpacity=100;" parent="1" source="9" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fillOpacity=100;" parent="22" vertex="1" connectable="0">
+                    <mxGeometry x="0.2544" y="2" relative="1" as="geometry">
+                        <mxPoint x="-2" y="-9" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="移动到指定位置" style="ellipse;whiteSpace=wrap;html=1;align=center;fillOpacity=100;" parent="1" vertex="1">
+                    <mxGeometry x="345" y="393" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fillOpacity=100;" parent="1" source="13" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillOpacity=100;" parent="14" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3159" relative="1" as="geometry">
+                        <mxPoint x="-15" y="-10" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="移动到指定位置[避障]" style="ellipse;whiteSpace=wrap;html=1;align=center;fillOpacity=100;" parent="1" vertex="1">
+                    <mxGeometry x="559" y="393" width="106" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="移动到指定位置并拍照" style="ellipse;whiteSpace=wrap;html=1;align=center;fillOpacity=100;" parent="1" vertex="1">
+                    <mxGeometry x="345" y="283" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="移动到指定位置并采集土壤" style="ellipse;whiteSpace=wrap;html=1;align=center;fillOpacity=100;" parent="1" vertex="1">
+                    <mxGeometry x="345" y="493" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="观察路径中是否有障碍" style="ellipse;whiteSpace=wrap;html=1;align=center;fillOpacity=100;" parent="1" vertex="1">
+                    <mxGeometry x="345" y="183" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;fillOpacity=100;" parent="1" source="30" target="18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="相机" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillOpacity=100;" parent="1" vertex="1">
+                    <mxGeometry x="596" y="278" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;fillOpacity=100;" parent="1" source="32" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="相机" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillOpacity=100;" parent="1" vertex="1">
+                    <mxGeometry x="596" y="488" width="30" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

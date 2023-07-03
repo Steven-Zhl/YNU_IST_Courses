@@ -4,10 +4,21 @@
 >
 > 通常将源代码和相关报告留在Github，而对于较大的文件（例如较大的实验报告、工程项目以及其他不便于通过git传输的文件）则将其放在网盘上。
 >
+## 仓库镜像
+
 > [**Github主页**](https://github.com/Steven-Zhl/YNU_IST_Courses)：主要更新源
 >
 > [**Gitee镜像**](https://gitee.com/Steven-Zhl/YNU_IST_Courses)：公式渲染效果好
->
+
+## 文件分享
+
+> 由于不同网盘的限制，有些文件可能在部分网盘中无法上传，请以具体资源下载页面为准。
+
+* [百度网盘](https://pan.baidu.com/s/1Ji9vUMGBCHYRD4aeFANtVg?pwd=3g27)：提取码**3g27**
+* [阿里云盘](https://www.aliyundrive.com/s/oRye8PL1feh)
+* [夸克网盘](https://pan.quark.cn/s/5a3a3d4a2eaa)
+* [蓝奏云](https://steven-zhl.lanzoul.com/b04e7340d)：密码**c4db**
+
 ## 其他
 
 * [Latex汇总表](./其他/Latex.md)
@@ -43,3 +54,4 @@
 
 * [机器学习](./MachineLearning/README.md)
 * [模式识别](./PatternRecognition/README.md)
+* [软件工程](./SofwareEngineering/README.md)
