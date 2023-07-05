@@ -15,9 +15,12 @@
 
 ## 目录
 
-### [课程](https://www.aliyundrive.com/s/dp4ZvhLPDdf)
+### PPT
 
-> 跳转到阿里云盘下载课件
+* [百度网盘](https://pan.baidu.com/s/1tPHj7O0QiYf-CDLsgCUiWA?pwd=6bnj)：提取码**6bnj**
+* [阿里云盘](https://www.aliyundrive.com/s/opQzEBBjF1D)
+* [夸克网盘](https://pan.quark.cn/s/68b3bbcb261d)
+* [蓝奏云](https://steven-zhl.lanzoul.com/b04e73lni)：密码**4t4u**
 
 ### [作业](./Homework)
 

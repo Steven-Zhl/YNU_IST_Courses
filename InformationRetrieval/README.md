@@ -12,11 +12,14 @@
 
 ## 目录
 
-### [课程](https://pan.quark.cn/s/1337018208bf)
+### PPT
 
-> 跳转到夸克网盘下载
+> 共20份文件，应该都是自己做的，老师还是挺辛苦的
 
-* 共20份文件，应该都是自己做的，老师还是挺辛苦的
+* [百度网盘](https://pan.baidu.com/s/1S1zKP3p4wA2ceRoRp1UAIA?pwd=81tv)：提取码**81tv**
+* [阿里云盘](https://www.aliyundrive.com/s/kQ2Eeb5ejfX)
+* [夸克网盘](https://pan.quark.cn/s/1337018208bf)
+* [蓝奏云](https://steven-zhl.lanzoul.com/b04e73fxc)：密码**423d**
 
 ### 实验
 

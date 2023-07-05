@@ -26,6 +26,8 @@
 
 ## 目录
 
+### 实验
+
 * 实验1：配置开发环境
   * > 即安装Keil µVision 5、mcuisp等软件，内容略
 
@@ -51,7 +53,7 @@
   * 实验报告：[Report.docx](./Experiments/Exp5/Report.docx)
   * 实验要求：详见实验报告
 
-## 课堂汇报
+### 课堂汇报
 
 * [汇报1：BP神经网络调节PID的研究](./Experiments/Report1)
   * > 这是一项合作任务，就是组队研究一项和本课程相关的内容，然后汇报。

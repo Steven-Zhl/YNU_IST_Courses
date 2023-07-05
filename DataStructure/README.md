@@ -21,19 +21,12 @@
 
 ## 目录
 
-### [课程](https://www.aliyundrive.com/s/TL1Pj5V6XVs)
+### PPT
 
-> 跳转到阿里云盘下载课件
-
-* 0 C语言复习与课程介绍
-* 1 绪论
-* 2 线性表
-* 3 栈和队列
-* 4 串
-* 5 数组
-* 6 树和二叉树
-* 7 图
-* 9 查找
+* [百度网盘](https://pan.baidu.com/s/12e087tCm1lgvAQ7Du_CyHw?pwd=36pq)：提取码**36pq**
+* [阿里云盘](https://www.aliyundrive.com/s/oMM4Hsp5HpP)
+* [夸克网盘](https://pan.quark.cn/s/e43107c64ae4)
+* [蓝奏云](https://steven-zhl.lanzoul.com/b04e73jib)：密码**68v3**
 
 ### [实验](./Experiments)
 
@@ -78,5 +71,11 @@
 * [实验7:图](./Experiments/Exp7/)
   * [代码](./Experiments/Exp7/Code/)
     * 源文件：[`Source.cpp`](./Experiments/Exp7/Code/Source.cpp)
-    * 头文件：[Matrix.h](./Experiments/Exp7/Code/Matrix.h)
+    * 头文件：[`Matrix.h`](./Experiments/Exp7/Code/Matrix.h)
   * 实验报告：[Report.docx](./Experiments/Exp7/Report.docx)
+
+* [实验8:数据结构综合实验 管理QQ账户](./Experiments/ExpFinal/)
+  * [代码](./Experiments/ExpFinal/Code/)
+    * 源文件：[`main.cpp`](./Experiments/ExpFinal/Code/main.cpp)
+    * 头文件：[`manage.h`](./Experiments/ExpFinal/Code/manage.h)，[`display.h`](./Experiments/ExpFinal/Code/display.h)
+  * 实验要求：[设计要求.txt](./Experiments/ExpFinal/设计要求.txt)

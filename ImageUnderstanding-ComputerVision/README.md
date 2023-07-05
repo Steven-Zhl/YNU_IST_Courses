@@ -28,11 +28,14 @@
 
 ## 目录
 
-### [课程](https://www.aliyundrive.com/s/WA1eNP9V7dp)
+### PPT
 
-> 去阿里云盘下载PPT
+> 有一说一，虽然我不喜欢她的教课风格，但PPT做的确实非常认真。
 
-* 有一说一，虽然我不喜欢她的教课风格，但PPT做的确实非常认真。
+* [百度网盘](https://pan.baidu.com/s/1l5gb9syDBy3lyQiJmlS__Q?pwd=shmm)：提取码**shmm**
+* [阿里云盘](https://www.aliyundrive.com/s/GYZ7KQJma9K)
+* [夸克网盘](https://pan.quark.cn/s/266e8fe94b09)
+* [蓝奏云](https://steven-zhl.lanzoul.com/b04e73izc)：密码**9xa9**
 
 ### 实验
 

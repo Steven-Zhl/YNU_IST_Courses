@@ -22,12 +22,12 @@
 
 ## 目录
 
-### [课程](https://www.aliyundrive.com/s/tvzicp48TKA)
+### PPT
 
-> 跳转到阿里云盘下载课件
-
-* 理论课：2~11章
-* 实验课：实验2~实验9
+* [百度网盘](https://pan.baidu.com/s/1w99aJRiisRfhPvDvDjP0HQ?pwd=axwx)：提取码**axwx**
+* [阿里云盘](https://www.aliyundrive.com/s/PsSAWLJ3e75)
+* [夸克网盘](https://pan.quark.cn/s/f36eea148a5d)
+* [蓝奏云](https://steven-zhl.lanzoul.com/b04e73kva)：密码**7qqe**
 
 ### [实验](./Experiments)
 

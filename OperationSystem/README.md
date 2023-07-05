@@ -27,9 +27,12 @@
 
 ## 目录
 
-### [实验PPT](https://pan.quark.cn/s/b8d0433ce89a)
+### 实验PPT
 
-> 跳转到夸克网盘下载
+* [百度网盘](https://pan.baidu.com/s/1_65E--dSfLhJJmuQwN6-kg?pwd=4ysb)：提取码**4ysb**
+* [阿里云盘](https://www.aliyundrive.com/s/UXSKsRu1sfT)
+* [夸克网盘](https://pan.quark.cn/s/b8d0433ce89a)
+* [蓝奏云](https://steven-zhl.lanzoul.com/b04e73dvi)：密码**eujn**
 
 ### [实验](./Experiments)
 

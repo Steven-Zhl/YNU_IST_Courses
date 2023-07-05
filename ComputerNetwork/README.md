@@ -20,7 +20,7 @@
 
 ## 目录
 
-### 课程
+### PPT
 
 * 跳转到[津宝的Repository](https://github.com/wangjin0818/Computer_Network_2023/)中查看
 
