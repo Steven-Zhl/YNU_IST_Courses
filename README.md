@@ -55,3 +55,7 @@
 * [机器学习](./MachineLearning/README.md)
 * [模式识别](./PatternRecognition/README.md)
 * [软件工程](./SofwareEngineering/README.md)
+
+## 大四-第一学期
+
+* [工程数学](./EngineeringMathematics/README.md)
