@@ -16,7 +16,7 @@
 ## 教材
 
 * [《软件工程(第4版)》，齐治昌 谭庆平 宁洪 编著，高等教育出版社](https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=5bed818bf18f967ee7f37a60)
-  * <img alt="软件工程" width=256 src="https://hepshow-image-formal.oss-cn-beijing.aliyuncs.com/bookCover/2022-01-5w/61f2d66d0cf220f1ff4b1354.jpg">
+  * <img alt="软件工程" width=256 src="https://hepshow-image-formal.oss-cn-beijing.aliyuncs.com/bookCover/2023-09-5w/651461700cf29057e92b5645.jpg">
 
 ## 目录
 
@@ -31,11 +31,11 @@
 
 ### 作业
 
-* [作业1：MCS系统实体图](./Hwk/Hwk1/实体图.drawio)
+* [作业1：MCS系统实体图](./Homework/Hwk1/实体图.drawio)
 
 ### 实验
 
 > 软件设计说明书和软件需求规格说明书属于小组共同成果，我不应当单独上传。
 
-* [SE_Exp_Specification](https://github.com/Steven-Zhl/SE_Exp_Specification)：软件开发规则(软件规范) 实验项目
+* [SE_Exp_Specification](./Experiments/SE_Exp_Specification)：软件开发规则(软件规范) 实验项目
 * [MoYun](https://github.com/Steven-Zhl/MoYun)：“墨韵”在线读书交流平台 实验项目
