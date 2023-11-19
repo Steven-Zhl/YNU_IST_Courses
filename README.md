@@ -1,9 +1,13 @@
 # 云南大学 信息学院 智能科学与技术 课程资料
 
-> 所有内容仅供参考，同时欢迎大家共同讨论，一起变强！
+> **所有内容仅供参考**，欢迎大家共同讨论，一起变强！
 >
 > 通常将源代码和相关报告留在Github，而对于较大的文件（例如较大的实验报告、工程项目以及其他不便于通过git传输的文件）则将其放在网盘上。
->
+
+![GitHub repo size](https://img.shields.io/github/repo-size/Steven-Zhl/YNU_ISE_Courses)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Steven-Zhl/YNU_ISE_Courses/main)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/Steven-Zhl/YNU_ISE_Courses)
+
 ## 仓库镜像
 
 > [**Github主页**](https://github.com/Steven-Zhl/YNU_IST_Courses)：主要更新源
@@ -21,8 +25,7 @@
 
 ## 其他
 
-* [Latex汇总表](./其他/Latex.md)
-  * [ ] 正在更新中
+* [LateX汇总表](./其他/LateX.md)：正在更新中
 
 ## 大一-第一学期
 

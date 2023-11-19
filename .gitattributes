@@ -1,5 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.md linguist-vendored=false
+*.md linguist-generated=false
+*.md linguist-documentation=false
+*.md linguist-detectable=true
 # 写在这应该不会有人注意到吧....那就发一下牢骚
 #
 # 人如果没有梦想
